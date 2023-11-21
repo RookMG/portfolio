@@ -82,10 +82,12 @@
           }
         }
         .title {
-          font-size: 4vw;
+          font-size: 30px;
           font-weight: 900;
           font-family: var(--mainKor-font);
-          margin-bottom: 1rem;
+          @media (max-width: 800px){
+            font-size: 15x;
+          }
         }
         .btn {
           a {
