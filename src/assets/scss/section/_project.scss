@@ -40,6 +40,8 @@
       position: sticky;
       left: 0;
       margin-bottom: 100px;
+
+
       .project__itembox::after{
         content:"";
         opacity:0.7;
@@ -58,9 +60,9 @@
         width: 95%;
         height: 85%;
         background-repeat: no-repeat;
-        background-position: top center;
+        background-position: center;
         background-size: cover;
-        background-attachment: fixed;
+        //background-attachment: fixed;
         border-radius: 30px;
         z-index: -1;
         .text {
@@ -207,7 +209,7 @@
         top: 1vw;
 
         @media (max-width: 800px){
-          font-size: 80px;
+          font-size: 50px;
           left: 20px;
           top: 20px;
         }
