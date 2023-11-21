@@ -1,0 +1,104 @@
+.experience__inner {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: 800px){
+    flex-direction: column;
+  }
+
+  .experience__title {
+    position: sticky;
+    top: 70px;
+    left: 0;
+    width: 48%;
+    height: 5vw;
+    font-size: 4vw;
+    font-weight: 900;
+    line-height: 1.6;
+    font-family: var(--mainKor-font);
+    text-transform: uppercase;
+    color: var(--black100);
+    border-bottom: 0.4vw solid var(--black100);
+
+    @media (max-width: 800px){
+      width: 100%;
+      margin-bottom: 10vw;
+      font-size: 30px;
+      height: auto;
+      top: 68px;
+      background-color: var(--mainBg-color);
+    }
+
+    em {
+      font-size: 1.25rem;
+      font-weight: 400;
+      line-height: 2;
+    }
+  }
+  .experience__desc {
+    width: 50%;
+
+    @media (max-width: 800px){
+      width: 100%;
+    }
+
+    div{
+      position: sticky;
+      &.s1 {
+        top: 40px;
+        background-color: var(--mainBg-color);
+        @media (max-width: 800px){
+          top: 40px;
+        }
+      }
+      &.s2 {
+        top: 120px;
+        background-color: var(--mainBg-color);
+        @media (max-width: 800px){
+          top: 120px;
+        }
+      }
+      &.s3 {
+        background-color: var(--mainBg-color);
+        top: 200px;
+
+        @media (max-width: 800px){
+          top: 200px;
+        }
+      }
+      &.se {
+        background-color: var(--mainBg-color);
+        height: 50px;
+        top: 280px;
+
+        @media (max-width: 800px){
+          top: 280px;
+        }
+      }
+    }
+
+    span {
+      font-size: 5vw;
+      font-weight: 900;
+      line-height: 1.3;
+      font-family: var(--mainNum-font);
+
+      @media (max-width: 800px){
+        font-size: 20vw;
+      }
+    }
+    h3 {
+      font-size: 2rem;
+      font-weight: 900;
+      line-height: 3;
+      //text-decoration: underline;
+      text-underline-position: under;
+      margin-bottom: 1vw;
+    }
+    p {
+      margin-bottom: 10vh;
+      font-size: 1.1rem;
+    }
+  }
+}

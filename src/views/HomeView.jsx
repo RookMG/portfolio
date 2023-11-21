@@ -1,10 +1,10 @@
 import React from "react";
 import Header from "../components/Header";
 import Intro from "../components/Intro";
-import Skill from "../components/Skill";
-import Site from "../components/Site";
-import Port from "../components/Port";
-import Contact from "../components/Contact";
+import Experience from "../components/Experience";
+import Award from "../components/Award";
+import Certification from "../components/Certification";
+import Project from "../components/Project";
 import Footer from "../components/Footer";
 import Skip from "../components/Skip";
 import Main from "../components/Main";
@@ -16,10 +16,10 @@ const HomeView = () => {
             <Header />
             <Main>
                 <Intro />
-                <Skill />
-                <Site />
-                <Port />
-                <Contact />
+                <Experience />
+                <Project />
+                <Award />
+                <Certification />
             </Main>
             <Footer />
         </>
