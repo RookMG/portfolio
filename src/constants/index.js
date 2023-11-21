@@ -119,8 +119,8 @@ export const projectText = [
         view: "",
         info: [
             "window application",
-            "production period : 6 weeks",
-            "use stack : C# WPF, netDxf",
+            "period : 6 weeks",
+            "stack : C# WPF, netDxf",
         ],
         image: project1,
     },
@@ -131,8 +131,8 @@ export const projectText = [
         view: "",
         info: [
             "android application",
-            "production period : 6 weeks",
-            "use stack : Spring Boot, MySQL, React Native",
+            "period : 6 weeks",
+            "stack : Spring Boot, MySQL, React Native",
         ],
         image: project2,
     },
@@ -143,8 +143,8 @@ export const projectText = [
         view: "",
         info: [
             "web site",
-            "production period : 6 weeks",
-            "use stack : Spring Boot, ReactJS, WebRTC, FFmpeg",
+            "period : 6 weeks",
+            "stack : Spring Boot, ReactJS, WebRTC, FFmpeg",
         ],
         image: project3,
     },
@@ -155,8 +155,8 @@ export const projectText = [
         view: "",
         info: [
             "web site",
-            "production period : 1 week",
-            "use stack : Spring Boot, MySQL, VueJS",
+            "period : 1 week",
+            "stack : Spring Boot, MySQL, VueJS",
         ],
         image: project4,
     },

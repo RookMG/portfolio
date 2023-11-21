@@ -24,7 +24,7 @@ const Project = () => {
                                 </div>
                                 <div className="info">
                                     <span>{project.info[0]}</span>
-                                    <span>{project.info[1]}</span>
+                                    <span className="period">{project.info[1]}</span>
                                     <span>{project.info[2]}</span>
                                 </div>
                             </div>

@@ -110,11 +110,17 @@
           display: flex;
           justify-content: space-between;
 
+          .period{
+            @media (max-width: 800px){
+              display: none;
+            }
+          }
           @media (max-width: 800px){
-            flex-direction: column;
             width: 90%;
             margin-left: 5%;
             padding: 5px 0;
+            display: flex;
+            justify-content: space-between;
           }
 
           span {
@@ -123,15 +129,24 @@
             padding: 3px 0;
             text-transform: uppercase;
             width: 33%;
+            @media (max-width: 800px){
+              font-size: 9px;
+            }
 
             &:nth-child(1){
               text-align: left;
+              @media (max-width: 800px){
+                width: 30%;
+              }
             }
             &:nth-child(2){
               text-align: center;
             }
             &:nth-child(3){
               text-align: right;
+              @media (max-width: 800px){
+                width: 70%;
+              }
             }
           }
         }

@@ -48,14 +48,14 @@
         top: 140px;
         background-color: var(--subBg100);
         @media (max-width: 800px){
-          top: 140px;
+          top: 130px;
         }
       }
       &.s2 {
         top: 200px;
         background-color: var(--subBg200);
         @media (max-width: 800px){
-          top: 200px;
+          top: 170px;
         }
       }
       &.s3 {
@@ -63,7 +63,7 @@
         top: 260px;
 
         @media (max-width: 800px){
-          top: 260px;
+          top: 210px;
         }
       }
       &.s4 {
@@ -71,7 +71,7 @@
         top: 320px;
 
         @media (max-width: 800px){
-          top: 320px;
+          top: 250px;
         }
       }
       &.s5 {
@@ -79,7 +79,7 @@
         top: 380px;
 
         @media (max-width: 800px){
-          top: 380px;
+          top: 290px;
         }
       }
       &.s6 {
@@ -87,7 +87,7 @@
         top: 440px;
 
         @media (max-width: 800px){
-          top: 440px;
+          top: 330px;
         }
       }
       &.s7 {
@@ -95,7 +95,7 @@
         top: 500px;
 
         @media (max-width: 800px){
-          top: 500px;
+          top: 370px;
         }
       }
       &.se {
@@ -104,7 +104,8 @@
         top: 560px;
 
         @media (max-width: 800px){
-          top: 560px;
+          height: 30px;
+          top: 410px;
         }
       }
 
@@ -118,12 +119,18 @@
           margin : 10px;
           font-weight: 100;
           vertical-align: bottom;
+          @media (max-width: 800px){
+            display:none;
+          }
         }
         h2{
           font-family: var(--mainKor-font);
           font-size: 2rem;
           font-weight: 700;
           margin : 10px;
+          @media (max-width: 800px){
+            font-size: 1.3rem;
+          }
         }
       }
       .certification__itembody{
@@ -132,6 +139,9 @@
         font-weight: 100;
         margin-left : 10px;
         margin-bottom : 5px;
+        @media (max-width: 800px){
+          font-size: 0.85rem;
+        }
       }
     }
   }

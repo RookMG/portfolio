@@ -49,14 +49,14 @@
         top: 40px;
         background-color: var(--mainBg-color);
         @media (max-width: 800px){
-          top: 40px;
+          top: 120px;
         }
       }
       &.s2 {
         top: 120px;
         background-color: var(--mainBg-color);
         @media (max-width: 800px){
-          top: 120px;
+          top: 160px;
         }
       }
       &.s3 {
@@ -73,7 +73,7 @@
         top: 280px;
 
         @media (max-width: 800px){
-          top: 280px;
+          top: 240px;
         }
       }
     }
@@ -95,6 +95,9 @@
       //text-decoration: underline;
       text-underline-position: under;
       margin-bottom: 1vw;
+      @media (max-width: 800px){
+        font-size: 1.4rem;
+      }
     }
     p {
       margin-bottom: 10vh;

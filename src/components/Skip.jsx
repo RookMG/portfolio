@@ -1,7 +1,7 @@
 import React from "react";
 
 const Skip = () => {
-    return <div>Skip</div>;
+    return <div>_</div>;
 };
 
 export default Skip;

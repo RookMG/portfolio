@@ -14,7 +14,7 @@ const Header = () => {
                 <div className="header__logo">
                     <a href="/">portfolio<em>곽민규</em></a>
                 </div>
-                <nav className={`header__nav ${show ? "show" : ""}`} role="navigation" aria-label="메인 메뉴">
+                <nav className={"header__nav"} role="navigation" aria-label="메인 메뉴">
                     <ul>
                         {headerNav.map((nav, key) => (
                             <li key={key}>
@@ -35,6 +35,15 @@ const Header = () => {
                     <span></span>
                 </div>
             </div>
+            <nav className={`header__navmenu__mobile ${show?"show":""}`} role="navigation" aria-label="메인 메뉴">
+                <ul>
+                    {headerNav.map((nav, key) => (
+                        <li key={key}>
+                            <a href={nav.url}>{nav.title}</a>
+                        </li>
+                    ))}
+                </ul>
+            </nav>
         </header>
     );
 };
