@@ -44,6 +44,7 @@
     position: relative;
 
     .text {
+      opacity: 0;
       font-size: 3vw;
       line-height: 1.4;
       font-weight: 600;
@@ -60,6 +61,7 @@
       }
     }
     .img {
+      filter: grayscale(0);
       position: absolute;
       left: 50%;
       top: 50%;
@@ -68,7 +70,7 @@
       height: 30vh;
       border-radius: 50%;
       overflow: hidden;
-      filter: grayscale(100%);
+      //filter: grayscale(100%);
       transition: all 0.3s;
 
       @media (max-width: 320px){
@@ -78,10 +80,10 @@
     }
 
     &:hover .text {
-      opacity: 0;
+      opacity: 100;
     }
     &:hover .img {
-      filter: grayscale(0);
+      filter: grayscale(100%);
     }
   }
   .intro__lines {
