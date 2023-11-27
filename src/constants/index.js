@@ -12,9 +12,13 @@ export const headerNav = [
         url: "#experience"
     },
     {
-        title: "project",
-        url: "#project"
+      title: "project",
+      url: "#project"
     },
+    // {
+    //   title: "skill",
+    //   url: "#skill"
+    // },
     {
         title: "award",
         url: "#award"
@@ -43,6 +47,95 @@ export const experienceText = [
         title: "◾ 명문JS수학학원",
         desc: "2018.07~2022.07 명문JS수학학원 고등부에서 이과 수학 강의를 했습니다."
     }
+]
+
+export const skillText = [
+  {
+    type: "Language",
+    skills:[
+      {
+        title:"JAVA",
+        image:"",
+        level:"★★★★☆",
+        desc:"",
+      },
+      {
+        title:"Python",
+        image:"",
+        level:"★★★☆☆",
+        desc:"",
+      },
+      {
+        title:"C#",
+        image:"",
+        level:"★★☆☆☆",
+        desc:"",
+      },
+    ]
+  },
+  {
+    type: "Backend / DB",
+    skills:[
+      {
+        title:"Spring Boot",
+        image:"",
+        level:"★★★☆☆",
+        desc:"",
+      },
+      {
+        title:"Spring Data JPA",
+        image:"",
+        level:"★★☆☆☆",
+        desc:"",
+      },
+      {
+        title:"MySQL",
+        image:"",
+        level:"★★★☆☆",
+        desc:"",
+      },
+      {
+        title:"Redis",
+        image:"",
+        level:"★★☆☆☆",
+        desc:"",
+      },
+    ]
+  },
+  {
+    type: "Frontend",
+    skills:[
+      {
+        title:"ReactJS",
+        image:"",
+        level:"★★★☆☆",
+        desc:"",
+      },
+      {
+        title:"React Native",
+        image:"",
+        level:"★★★☆☆",
+        desc:"",
+      },
+      {
+        title:"VueJS",
+        image:"",
+        level:"★★☆☆☆",
+        desc:"",
+      },
+    ]
+  },
+  {
+    type: "Etc.",
+    skills:[
+      {
+        title:"Algorithm",
+        image:"",
+        level:"★★★★☆",
+        desc:"",
+      },
+    ]
+  },
 ]
 
 export const awardText = [

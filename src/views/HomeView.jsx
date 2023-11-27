@@ -8,6 +8,7 @@ import Project from "../components/Project";
 import Footer from "../components/Footer";
 import Skip from "../components/Skip";
 import Main from "../components/Main";
+import Skill from "../components/Skill";
 
 const HomeView = () => {
     return (
@@ -18,6 +19,7 @@ const HomeView = () => {
                 <Intro />
                 <Experience />
                 <Project />
+                {/*<Skill />*/}
                 <Award />
                 <Certification />
             </Main>
