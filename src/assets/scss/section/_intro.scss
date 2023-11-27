@@ -36,6 +36,7 @@
     height: 40vh;
     background-color: var(--subBg100);
     color: var(--white);
+    -webkit-text-stroke: 2px var(--black);
     display: flex;
     align-items: center;
     justify-content: center;
