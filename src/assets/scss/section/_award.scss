@@ -81,8 +81,16 @@
           top: 290px;
         }
       }
-      &.se {
+      &.s6 {
         top: 160px+60px*5;
+        background-color: var(--subBg300);
+
+        @media (max-width: 800px){
+          top: 290px;
+        }
+      }
+      &.se {
+        top: 160px+60px*6;
         background-color: var(--mainBg-color);
         height: 50px;
 
